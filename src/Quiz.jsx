@@ -128,6 +128,106 @@ const quizData = {
       options: ["0", "9", "10", "1"],
       correct: "0"
     },
+    {
+      question: "Sizda 5 ta olma bor edi. 2 tasini olib ketishdi. Sizda nechta olma qoldi?",
+      options: ["3 ta", "0 ta", "5 ta", "2 ta"],
+      correct: "5 ta"
+    },
+    {
+      question: "Bir oddiy xonada 3 ta chiroq, boshqa xonada ularning tugmalari. Qanday qilib 1 marta kirib, qaysi tugma qaysi chiroqqa tegishli ekanligini bilasiz?",
+      options: ["Ikki marta kiraman", "Tugmalardan bittasini bosib kiraman", "Bittasini yoqib, biroz kutib, o‘chirib kiraman", "Hammasini yoqib kiraman"],
+      correct: "Bittasini yoqib, biroz kutib, o‘chirib kiraman"
+    },
+    {
+      question: "Yarim kechasi soat 12 da yomg‘ir yog‘ayapti. 72 soatdan keyin quyosh qayerdan chiqadi?",
+      options: ["Sharqdan", "G‘arbdan", "Yomg‘ir yog‘ganda chiqmaydi", "Tunda quyosh chiqmaydi"],
+      correct: "Sharqdan"
+    },
+    {
+      question: "Agar 1 = 5, 2 = 25, 3 = 325, 4 = 4325, 5 = ?", 
+      options: ["54325", "1", "5", "4325"],
+      correct: "1"
+    },
+    {
+      question: "Bir mashina bir shahardan boshqasiga 60 km/soat tezlikda boradi va 90 km/soat tezlikda qaytadi. O‘rtacha tezlik nechchi bo‘ladi?",
+      options: ["75 km/soat", "72 km/soat", "70 km/soat", "65 km/soat"],
+      correct: "72 km/soat"
+    },
+    {
+      question: "1 ta gugurt cho‘pini sindirsam 2 bo‘lak bo‘ladi. 3 ta gugurtni 1 soniyada sindirsam, 100 ta gugurtni sindirishga qancha vaqt ketadi?",
+      options: ["100 soniya", "99 soniya", "50 soniya", "1 soniya"],
+      correct: "1 soniya"
+    },
+    {
+      question: "3 ta aka-uka bor: Ali, Vali, Sodiq. Ali: “Vali yolg‘onchi”. Vali: “Sodiq yolg‘onchi”. Sodiq: “Ali va Vali ikkalasi ham yolg‘onchi”. Faqat bittasi rost gapirgan bo‘lsa, kim?",
+      options: ["Ali", "Vali", "Sodiq", "Hech biri"],
+      correct: "Vali"
+    },
+    {
+      question: "1 dan 1000 gacha nechta 9 raqami bor?",
+      options: ["180", "189", "200", "271"],
+      correct: "189"
+    },
+    {
+      question: "Bir odam poyezdga qarshi yurib 20 km/soat tezlikda ketmoqda. Poyezd 60 km/soat tezlikda kelmoqda. Ular orasidagi masofa 100 km. Necha soatda uchrashadi?",
+      options: ["1 soat", "2 soat", "1.25 soat", "1.5 soat"],
+      correct: "1.25 soat"
+    },
+    {
+      question: "Ona 35 yoshda, farzandi 5 yoshda. Necha yil o‘tib ona yoshi farzand yoshidan 2 barobar ko‘p bo‘ladi?",
+      options: ["5 yil", "10 yil", "15 yil", "20 yil"],
+      correct: "10 yil"
+    },
+    {
+      question: "Bir bola 3 daqiqada 3 sham yoqdi. 9 shamni yoqish uchun qancha vaqt ketadi?",
+      options: ["9 daqiqa", "3 daqiqa", "6 daqiqa", "1 daqiqa"],
+      correct: "3 daqiqa"
+    },
+    {
+      question: "3 kishi mehmonxonaga keldi. Har biri 10 ming so‘m to‘ladi. Keyin mehmonxona egasi aytdi: faqat 25 ming to‘lash kerak edi. 5 mingni qaytardi. 3 kishi 1 mingdan oldi, 2 ming qoldi. Qayerga ketdi 1 ming?",
+      options: ["Hech qayerga ketmadi", "Qaytarilmadi", "Yo‘q bo‘lib ketdi", "Xatolik bor"],
+      correct: "Hech qayerga ketmadi"
+    },
+    {
+      question: "Agar bir xonada 3 marta yarim odam bo‘lsa, bu nechta odam degani?",
+      options: ["1.5 odam", "1 odam", "3 odam", "2 odam"],
+      correct: "1.5 odam"
+    },
+    {
+      question: "O‘sha narsani qancha ko‘proq olsang, shuncha katta bo‘ladi. Bu nima?",
+      options: ["Yoriq", "Soyaning uzunligi", "Teshik", "Qor"],
+      correct: "Teshik"
+    },
+    {
+      question: "1 oyda eng ko‘p necha dushanba bo‘lishi mumkin?",
+      options: ["4", "5", "6", "7"],
+      correct: "5"
+    },
+    {
+      question: "Bir nechta otasi va farzandlar o‘rmonga bordi, jami 4 kishi. Qanday bo‘lishi mumkin?",
+      options: ["3 ota va 1 o‘g‘il", "1 ota, 2 o‘g‘il, 1 nabira", "2 ota va 2 o‘g‘il", "Bular mumkin emas"],
+      correct: "2 ota va 2 o‘g‘il"
+    },
+    {
+      question: "Birinchi raqam 3 ga bo‘linadi, ikkinchisi esa yo‘q. Ammo ikkalasining yig‘indisi ham 3 ga bo‘linadi. Qanday bo‘lishi mumkin?",
+      options: ["Ikkala son 3 ga bo‘linadi", "Ulardan biri manfiy", "Ulardan biri 0", "Ulardan biri 3 emas"],
+      correct: "Ulardan biri manfiy"
+    },
+    {
+      question: "Agar bugun payshanba bo‘lsa, 100 kun keyin qaysi hafta kuni bo‘ladi?",
+      options: ["Shanba", "Dushanba", "Yakshanba", "Payshanba"],
+      correct: "Shanba"
+    },
+    {
+      question: "Soat 3:15 da soat minut va soat strelkalari orasidagi burchak nechcha gradus?",
+      options: ["0°", "7.5°", "45°", "90°"],
+      correct: "7.5°"
+    },
+    {
+      question: "3 ta do‘st 6 ta olmani teng taqsimlashi kerak. Qanday bo‘lishi mumkin?",
+      options: ["Har biri 1 ta oladi", "Har biri 2 ta oladi", "Har biri 2/3 oladi", "Har biri 1.5 ta oladi"],
+      correct: "Har biri 2 ta oladi"
+    },
   ]
   
 };
@@ -136,31 +236,53 @@ function Quiz({ category, goHome }) {
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
+  const [feedback, setFeedback] = useState(""); // Javob holatini saqlaydi
 
   const questions = quizData[category];
 
   const handleAnswer = (option) => {
-    if (option === questions[current].correct) {
+    const isCorrect = option === questions[current].correct;
+
+    if (isCorrect) {
       setScore(score + 1);
+      setFeedback("✅ To‘g‘ri javob!");
+    } else {
+      setFeedback("❌ Noto‘g‘ri. To‘g‘ri javob: " + questions[current].correct);
     }
 
-    if (current + 1 < questions.length) {
-      setCurrent(current + 1);
-    } else {
-      setFinished(true);
-    }
+    setTimeout(() => {
+      setFeedback(""); // Fikrni tozalash
+      if (current + 1 < questions.length) {
+        setCurrent(current + 1);
+      } else {
+        setFinished(true);
+      }
+    }, 1500); // 1.5 soniyadan keyin keyingi savol
   };
 
   return (
-    <div className="w-full max-w-md p-6 bg-base-100 rounded-2xl shadow-xl">
-      <button className="btn btn-outline mb-6" onClick={goHome}>← Orqaga</button>
+    <div className="w-full max-w-xl p-6 bg-base-100 rounded-2xl shadow-xl">
+      <button className="btn btn-outline mb-6" onClick={goHome}>
+        ← Orqaga
+      </button>
+
       {!finished ? (
-        <QuestionCard
-          questionData={questions[current]}
-          handleAnswer={handleAnswer}
-          questionNumber={current + 1}
-          totalQuestions={questions.length}
-        />
+        <>
+          <QuestionCard
+            questionData={questions[current]}
+            handleAnswer={handleAnswer}
+            questionNumber={current + 1}
+            totalQuestions={questions.length}
+          />
+
+          {feedback && (
+            <div className={`mt-4 p-4 rounded-lg text-lg font-semibold ${
+              feedback.startsWith("✅") ? "text-green-600" : "text-red-600"
+            }`}>
+              {feedback}
+            </div>
+          )}
+        </>
       ) : (
         <Result score={score} total={questions.length} goHome={goHome} />
       )}
