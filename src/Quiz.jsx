@@ -27,6 +27,109 @@ const quizData = {
     { question: "Socket.io qaysi sohada ishlatiladi?", options: ["Static sayt", "Real-time communication", "Authentication", "Database"], correct: "Real-time communication" },
     { question: "Backend va Frontendni birlashtirish uchun nima kerak?", options: ["API", "HTML", "CSS", "Webpack"], correct: "API" },
   ],
+  logic: [
+    {
+      question: "Bir kishi dushanba kuni ertalab Toshkentdan Samarqandga yo‘lga chiqdi. U safarda 2 kun bo‘ldi. U qaysi kuni qaytib keldi?",
+      options: ["Dushanba", "Chorshanba", "Payshanba", "Seshanba"],
+      correct: "Chorshanba"
+    },
+    {
+      question: "3 ta aka-uka bor: Alisher, Botir va Doston. Alisher Dostonning akasi emas. Botir esa Alisherning akasi. Kim eng katta?",
+      options: ["Alisher", "Botir", "Doston", "Aniqlab bo‘lmaydi"],
+      correct: "Botir"
+    },
+    {
+      question: "Sizda 5 ta olma bor. 2 tasini do‘stingizga berdingiz. Sizda nechta olma qoldi?",
+      options: ["3 ta", "2 ta", "5 ta", "0 ta"],
+      correct: "3 ta"
+    },
+    {
+      question: "Agar bugun dushanba bo‘lsa, 100 kundan keyin qaysi kun bo‘ladi?",
+      options: ["Payshanba", "Chorshanba", "Juma", "Yakshanba"],
+      correct: "Chorshanba"
+    },
+    {
+      question: "4, 9, 16, 25, ? Keyingi son nima?",
+      options: ["36", "30", "33", "49"],
+      correct: "36"
+    },
+    {
+      question: "5 ta oddiy odam 5 ta uy qursa, 10 ta odam 10 ta uy qurishga qancha vaqt ketadi?",
+      options: ["Xuddi o‘sha vaqt", "Ko‘proq vaqt", "Kamroq vaqt", "Aniqlab bo‘lmaydi"],
+      correct: "Xuddi o‘sha vaqt"
+    },
+    {
+      question: "Agar soat 3:15 bo‘lsa, minut strelkasi bilan soat strelkasi orasidagi burchak necha gradus?",
+      options: ["7.5°", "0°", "45°", "30°"],
+      correct: "7.5°"
+    },
+    {
+      question: "Sizga 1 kg temir va 1 kg paxta berildi. Qaysi biri og‘ir?",
+      options: ["Temir", "Paxta", "Ikkalasi bir xil", "Aniqlab bo‘lmaydi"],
+      correct: "Ikkalasi bir xil"
+    },
+    {
+      question: "Bir bola haftaning faqat 3 kunida yolg‘on gapiradi: Dushanba, Seshanba, Chorshanba. Qolgan kunlari rost gapiradi. Agar bola payshanba kuni 'Men kecha yolg‘on gapirdim' desa, u rost gapiryaptimi?",
+      options: ["Ha", "Yo‘q", "Ikkalasiyam emas", "Aniqlab bo‘lmaydi"],
+      correct: "Yo‘q"
+    },
+    {
+      question: "Kimdir: 'Men kecha men bilan ertaga uchrashadigan odam bilan uchrashdim'. Bu gap haqiqat bo‘lishi uchun bugun haftaning qaysi kuni bo‘lishi kerak?",
+      options: ["Payshanba", "Juma", "Shanba", "Yakshanba"],
+      correct: "Juma"
+    },
+    {
+      question: "Agar bir oila har 4 kunda bir marta non sotib olsa, 28 kunda nechta non sotib olishadi?",
+      options: ["6", "7", "8", "5"],
+      correct: "7"
+    },
+    {
+      question: "1, 1, 2, 3, 5, 8, ?, 21. Bo‘sh joyga nima yoziladi?",
+      options: ["13", "14", "15", "12"],
+      correct: "13"
+    },
+    {
+      question: "Bir odam o‘zining rasmini ko‘rsatib: 'Bu mening otamning yagona o‘g‘lining o‘g‘li' dedi. Bu odam suratdagi bolaga kim bo‘ladi?",
+      options: ["Ota", "Amaki", "O‘g‘il", "Bobosi"],
+      correct: "Ota"
+    },
+    {
+      question: "Agar 1 ta mashina 4 ta g‘ildirakka ega bo‘lsa, 5 ta mashinada nechta g‘ildirak bo‘ladi?",
+      options: ["20", "25", "15", "10"],
+      correct: "20"
+    },
+    {
+      question: "Agar do‘stingiz sizga 2 ta qalam bersa va sizda 3 ta bo‘lsa, sizda nechta qalam bo‘ladi?",
+      options: ["5", "2", "3", "7"],
+      correct: "5"
+    },
+    {
+      question: "Har bir oyda kamida nechta 28 kunli kun bor?",
+      options: ["1", "0", "12", "6"],
+      correct: "12"
+    },
+    {
+      question: "Agar bugun payshanba bo‘lsa, 3 kun oldin qaysi kun bo‘lgan?",
+      options: ["Dushanba", "Yakshanba", "Seshanba", "Chorshanba"],
+      correct: "Dushanba"
+    },
+    {
+      question: "Qaysi so‘z noto‘g‘ri yozilgan bo‘lsa ham to‘g‘ri deb o‘qiladi?",
+      options: ["Noto‘g‘ri", "To‘g‘ri", "So‘z", "Savol"],
+      correct: "Noto‘g‘ri"
+    },
+    {
+      question: "Soat 12 dan keyin 4 soat o‘tganda tongmi, tushmi, kechmi?",
+      options: ["Tush", "Tong", "Kech", "Yarim tun"],
+      correct: "Tush"
+    },
+    {
+      question: "Agar bir necha daraxtning har birida 10 tadan qush bo‘lsa va ovchi birini otib tushirsa, nechtasi qoladi?",
+      options: ["0", "9", "10", "1"],
+      correct: "0"
+    },
+  ]
+  
 };
 
 function Quiz({ category, goHome }) {

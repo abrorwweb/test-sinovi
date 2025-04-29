@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-200 via-sky-300 to-purple-300">
       <Header goHome={goHome} />
-      
+
       <main className="flex-1 flex items-center justify-center p-6">
         {!category ? (
           <div className="flex flex-col items-center gap-10 p-10 bg-white rounded-3xl shadow-2xl animate-fade-down w-full max-w-md">
@@ -33,6 +33,12 @@ function App() {
                 onClick={() => setCategory("backend")}
               >
                 💻 Backend
+              </button>
+              <button
+                className="btn btn-secondary btn-lg rounded-full shadow-lg hover:scale-110 hover:shadow-2xl transition-all duration-300"
+                onClick={() => setCategory("logic")}
+              >
+                🧠 Mantiqiy
               </button>
             </div>
 
